@@ -4,7 +4,7 @@
 		module="sujiproject1$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170605154119"
+		publication="20170613182500"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
