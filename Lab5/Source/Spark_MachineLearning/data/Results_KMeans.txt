@@ -1,0 +1,14 @@
+
+Corpus summary:
+	 Training set size: 6 documents
+	 Vocabulary size: 2416 terms
+	 Preprocessing time: 3.763405654 sec
+
+Finished training KMeans model.  Summary:
+	 Training time: 0.851769173 sec
+file:/C:/Users/putha/Desktop/KDM/Lab5/source/Spark_MachineLearning/InputDataSuji/tohoku.earthquake.tsunami.12.txt;3
+file:/C:/Users/putha/Desktop/KDM/Lab5/source/Spark_MachineLearning/InputDataSuji/tohoku.earthquake.tsunami.14.txt;2
+file:/C:/Users/putha/Desktop/KDM/Lab5/source/Spark_MachineLearning/InputDataSuji/DT_Results.txt;0
+file:/C:/Users/putha/Desktop/KDM/Lab5/source/Spark_MachineLearning/InputDataSuji/tohoku.earthquake.tsunami.3.txt;0
+file:/C:/Users/putha/Desktop/KDM/Lab5/source/Spark_MachineLearning/InputDataSuji/tohoku.earthquake.tsunami.8.txt;4
+file:/C:/Users/putha/Desktop/KDM/Lab5/source/Spark_MachineLearning/InputDataSuji/tohoku.earthquake.tsunami.9.txt;1
