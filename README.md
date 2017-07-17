@@ -12,4 +12,8 @@ LAB 3 : https://github.com/sujithaPuthana/CS5560_SujithaPuthana_LabSubmission/wi
 
 LAB 4 : https://github.com/sujithaPuthana/CS5560_SujithaPuthana_LabSubmission/wiki/Lab4
 
+LAB 5 : https://github.com/sujithaPuthana/CS5560_SujithaPuthana_LabSubmission/wiki/Lab5
+
+LAB 6 : https://github.com/sujithaPuthana/CS5560_SujithaPuthana_LabSubmission/wiki/Lab6
+
 
