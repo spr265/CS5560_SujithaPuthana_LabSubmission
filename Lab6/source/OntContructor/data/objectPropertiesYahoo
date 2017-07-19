@@ -1,0 +1,2 @@
+haspay,Pay,Gross,Func
+hasEconomyImpact,Pay,Gross,InvOf:hasImpact
