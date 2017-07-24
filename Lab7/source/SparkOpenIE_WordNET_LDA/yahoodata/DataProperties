@@ -1,0 +1,8 @@
+realtedTo,Internet,string
+realtedTo,LOCATION,string
+realtedTo,NUMBER,string
+realtedTo,ORGANIZATION,string
+realtedTo,MISC,string
+realtedTo,Computer,string
+realtedTo,DURATION,string
+realtedTo,PERSON,string

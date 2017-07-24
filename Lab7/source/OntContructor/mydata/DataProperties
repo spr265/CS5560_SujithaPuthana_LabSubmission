@@ -1,0 +1,12 @@
+realtedTo,LOCATION,string
+realtedTo,NUMBER,string
+realtedTo,LOCATrealtedTo,LOCATION,string
+realtedTo,DATE,string
+realtedTo,League,string
+realtedTo,ORGANIZATION,string
+realtedTo,MISC,string
+realtedTo,ORGANIZATION,srealtedTo,League,string
+realtedTo,DURATION,string
+realtedTo,PERSON,string
+realtedTo,Players,string
+realtedTo,ORDINAL,string

@@ -1,0 +1,4319 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/megha/ontologies/2017/7/premierLeague#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/megha/ontologies/2017/7/premierLeague#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="DATE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DURATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LOCATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="League"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MISC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NUMBER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ORDINAL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ORGANIZATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PERSON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Players"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Chilean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Dutchman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ireland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="London"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="healthy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="unusually"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Christchurch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Nielsen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Allen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Everton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Today"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Australia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Joseph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stefan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="countries"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="town"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="two"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Roberto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="uncertain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Grobbelaar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Kenwyne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="short"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1989-90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Wales"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Fulham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Lee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Eastern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Suriname"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Manchester"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="David"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Les"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Germany-born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1980s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Within"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stevens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Franco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="African"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Benjani"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="were"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Belfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="African-born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="English"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Kenny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Martin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="north"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="West"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Zubar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="border"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="third"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gardner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Real"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GAME"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="realtedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="boy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Glenn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="almost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="joined"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="travelled"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Quinn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="small"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="birthplace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="chain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="12"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Closer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="manager"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="been"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gianfranco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Frank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Scots"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Portsmouth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Scott"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="New"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="played"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ceuta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Graham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Dutch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Streete"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Australian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="spell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Argentina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Heurelho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="inaccurately-named"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Birmingham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="majority"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="became"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cliff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="city"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="new"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Wigan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Somalia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="farthest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Spaniard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Irishman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Kingston"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="recruited"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Yorke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Malta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hahnemann"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="&apos;s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Geovanni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="2004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Wilson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Berry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="more"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jimenez"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Basingstoke"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="absence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Carlos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jamie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="fewest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="George"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Richard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="striker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Kolding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Monkou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cowes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Africans"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="drew"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="formed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Germany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Pompey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tommy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="birthplace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cardiff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Fellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Berlin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Boleyn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Welsh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Corluka"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="represented"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="having"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Herita"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Closer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Trinidad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="first-team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="squad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sweden"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="dos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hampshire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Vince"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="plenty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Russia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Barnes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sydney"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="&apos;"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Honduras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="world"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Wanganui"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="may"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Colin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="stars"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Guinea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="five"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Besart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ecuador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="late"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Madrid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Brazil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="ago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="second"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="signatures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="St"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="South"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="poster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Barcelona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="crop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="colourful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="vast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ngata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Guiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Harry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stamford"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Nigerian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="is"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="summer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="had"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="good-sized"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="lone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cornish-born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Clint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="foreign-born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Liverpool"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gareth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Republic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="US"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gothenburg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gabon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="has"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Darren"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Frenchman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Espinoza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="islands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Nayim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Atteveld"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Seb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Emiliano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="joined"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Nedum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="now"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="represents"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ibrahima"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Burnley"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="African-born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="At"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="was"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="locally-born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="England"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Johnson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Isle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="North"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Guadeloupe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="unlikely"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="spent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TEAM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Des"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="boys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="fewer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="had"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="capital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Twenty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="easily"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bolton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LOCATrealtedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Houston"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="has"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Durban"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Denmark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="left"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Benitez"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="leaving"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="spotted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Carlo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Seattle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Vedran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Juliano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Lima"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jason"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="long-serving"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="came"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="probably"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Queensland"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="additions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mexico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Seol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Preston"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Raymond"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jordi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Frederiksberg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Greater"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Pole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="are"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Kosovo-born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="also"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Nicky"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hails"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Teemu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="whose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hailed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Piquionne"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="coming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="February"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="midfielder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="James"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Russian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="other"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Abingdon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="relatedTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="number"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Dan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Frederic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Aston"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stavanger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mamady"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Exeter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="fifth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Friedel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hendry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stapleton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Goalkeeper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="French"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="most"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="his"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Pacific"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hull"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="side"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Dourados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Nigeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jonsson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sunderland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gudni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="young"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Singapore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="defender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Fleet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Phil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Neil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Apart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="players"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nearby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="representing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="dot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ghana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1962"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Chelsea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="may"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bosnia-Hercegovina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="large"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="four"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="supply"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="only"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ipswich"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="such"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="helping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Giovani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Xabi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="three"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Johnsen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Olivier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gunners"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="himself"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Potts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Nigel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Diego"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Reykjavik"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="crashed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="lower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Blackburn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Iranian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Back"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tobago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Johannesburg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gordon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Paskin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="loan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Norwegian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Finnish"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="just"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Belletti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Deco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1989"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tottenham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Albania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="neighbouring"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="goalkeeper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Aberchirder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Winger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1992"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bignona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gavin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Westhoughton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Paisley"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="comes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Anfield"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="fellow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Luka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Kent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="past"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Thomas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Espanyol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tipton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="club"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Owen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="born"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="end"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="season"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="back-up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Maynor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Florent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Dean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mogadishu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Melbourne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hauser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Englishman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Andrew"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="departed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Andrey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Matthew"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Santos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Defender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Olofinjana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="first"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Steve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Dwight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Premier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Glen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="having"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Togolese"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="1982"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Scandinavian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="come"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Dickson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Brazilian"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="UK-born"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Aberchirder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Abingdon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="African"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="African-born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="Africans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Albania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Ali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Allen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Andrew"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Andrey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="Anfield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Anfield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Argentina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Aston"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="At"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Atteveld"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Australian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Back"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Barcelona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Barnes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Basingstoke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Belfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Bell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Belletti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Benitez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Benjani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Berlin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Berry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Besart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Bignona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Birmingham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Blackburn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Boleyn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Bolton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Bosnia-Hercegovina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Brazil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Brazilian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Burnley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Cana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Cape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Cardiff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Carlo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Carlos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Ceuta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Chelsea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Chilean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Christchurch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Cliff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Clint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Closer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Colin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Corluka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="Cornish-born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Cowes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Dan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Darren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="David"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Dean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Deco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Defender"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Denmark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Des"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Dickson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Diego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Dourados"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Durban"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Dutch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Dutchman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Dwight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Eastern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Ecuador"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Emiliano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="England"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="English"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Englishman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="Englishman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Englishman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Espanyol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Espinoza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Everton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Exeter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="February"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Fellow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Finnish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Fleet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Florent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Franco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Frank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Frederic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Frederiksberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="French"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Frenchman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Friedel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Fulham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Gabon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Gardner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Gareth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Gavin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="George"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Geovanni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Germany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Germany-born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Ghana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="Gianfranco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Gianfranco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Giovani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Glen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Glenn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Goalkeeper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Gordon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Gothenburg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Graham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Greater"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Grobbelaar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Guadeloupe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Gudni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Guiana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Guinea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="Gunners"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Hahnemann"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Hampshire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Harry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Hauser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Hendry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Herita"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Heurelho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Honduras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Houston"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Hull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Ibrahima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Ipswich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="Iranian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Ireland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Irishman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Isle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="James"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jamie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jason"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jimenez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Johannesburg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Johnsen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jonsson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Jordi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Joseph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Juliano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Kenny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Kent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Kenwyne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Kingston"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Kolding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Kolding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Kosovo-born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Lee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Les"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Lima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Liverpool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Liverpool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="London"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Luka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Madrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Mali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Malta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Mamady"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Manchester"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Manchester"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Mark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Martin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Matthew"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Maynor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Melbourne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Mogadishu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Monkou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Nayim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Nedum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Neil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="New"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="New"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Ngata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Nicky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Nielsen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Nigel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Nigeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Nigerian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="North"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Norwegian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Olivier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Olofinjana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Owen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Pacific"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Paisley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Paisley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Paskin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Phil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Piquionne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Pole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Pompey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Portsmouth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Portsmouth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Potts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="Premier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Preston"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Queensland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Quinn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Ray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Raymond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="Real"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Reykjavik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Richard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Roberto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Russia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Russian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Sam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Santos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Sao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Sao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Scandinavian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Scots"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Scots"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="Scots"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Scott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Sean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Seattle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Seb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="Seol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Singapore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Sir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Somalia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="South"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="South"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Spaniard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="St"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Stamford"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Stapleton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Stavanger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Stefan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Steve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Stevens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Streete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Sunderland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Suriname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Sweden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Sweden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Sydney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Teemu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Thomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Tim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Tipton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Tobago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="Today"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Togolese"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Tommy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Tony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Tottenham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Trinidad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Twenty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="Twenty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="US"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Vedran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Vince"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Wales"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Wanganui"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Welsh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Welsh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="West"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="West"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="West"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Westhoughton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Wigan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Wilson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Winger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="Within"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Xabi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Yorke"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="Zubar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="absence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="ago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="ago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="almost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="also"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="back-up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="birthplace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="border"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="boy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="boys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="capital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="city"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="club"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="colourful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="countries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="crop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="defender"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="dot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="end"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="fellow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="fewer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="fewest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="fifth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="first"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORDINAL"/>
+        <NamedIndividual IRI="first"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="first-team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="five"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="five"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="five"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="foreign-born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="four"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="four"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="four"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="goalkeeper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="good-sized"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="had"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="had"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="has"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="has"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="having"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="healthy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="helping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="his"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="inaccurately-named"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="islands"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="joined"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="joined"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="large"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="late"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="left"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="left"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="loan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="locally-born"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="lone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="long-serving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="lower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="majority"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="may"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="midfielder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="most"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="nearby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="nearby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="neighbouring"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="nine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="nine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="north"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="number"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="only"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="other"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="past"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="players"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="players"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="players"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="players"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="players"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="plenty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="point"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="poster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="season"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="second"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="short"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="signatures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="sole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="ORGANIZATION"/>
+        <NamedIndividual IRI="spell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="squad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="stars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="striker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="summer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="GAME"/>
+        <NamedIndividual IRI="third"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="three"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="three"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="three"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="three"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="town"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="MISC"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="uncertain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="unlikely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="unusually"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="vast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="whose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="world"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="PERSON"/>
+        <NamedIndividual IRI="young"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1962"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1980s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1982"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1989"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="LOCATION"/>
+        <NamedIndividual IRI="1989-90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="1989-90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="1992"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="TEAM"/>
+        <NamedIndividual IRI="20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DATE"/>
+        <NamedIndividual IRI="2004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="DURATION"/>
+        <NamedIndividual IRI="21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="NUMBER"/>
+        <NamedIndividual IRI="21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="League"/>
+        <NamedIndividual IRI="22"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">adolescence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">adulthood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">age</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">autumn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">babyhood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bachelorhood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bloom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">bloom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">childhood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">deathbed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">do</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">get</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">holiday</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">overwinter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">serve</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">slum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">sojourn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">soldier</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">vacation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="summer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">weekend</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">365</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">366</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Christian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Golden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Holy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Indian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">New</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Olympiad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Platonic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Saint</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1530s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1750s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1760s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1770s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1780s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1790s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1820s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1830s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1840s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="relatedTo"/>
+        <NamedIndividual IRI="1980s"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1850s</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="African-born"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="Apart"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="Closer"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="Closer"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="Johnson"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="Republic"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="UK-born"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="additions"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="ago"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="are"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="are"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="are"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="are"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="became"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="became"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="been"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="been"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="birthplace"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="born"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="born"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="born"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="came"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="came"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="chain"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="come"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="come"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="comes"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="comes"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="coming"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="crashed"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="crashed"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="departed"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="dos"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="dos"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="drew"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="easily"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="farthest"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="formed"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="go"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="go"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="had"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hail"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hail"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hailed"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hails"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hails"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="has"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="have"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="have"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="have"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="have"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="having"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="himself"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="himself"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="home"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="is"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="is"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="is"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="is"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="is"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="is"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="joined"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="leaving"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="may"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="now"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="one"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="played"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="played"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="probably"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="recruited"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="represented"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="representing"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="represents"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="spent"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="spotted"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="such"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="supply"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="supply"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="travelled"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="was"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="was"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="was"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="was"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="were"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="were"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="&apos;"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="&apos;s"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="&apos;s"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="African-born"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Apart"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Closer"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Closer"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Johnson"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Republic"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="UK-born"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="additions"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="ago"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="became"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="became"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="been"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="been"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="birthplace"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="born"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="born"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="born"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="came"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="came"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="chain"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="come"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="come"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="comes"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="comes"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="coming"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="crashed"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="crashed"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="departed"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="dos"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="dos"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="drew"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="easily"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="farthest"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="formed"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="go"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="go"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="had"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hail"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hail"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hailed"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hails"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hails"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="having"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="himself"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="himself"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="home"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="joined"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="leaving"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="may"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="now"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="of"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="one"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="played"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="played"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="probably"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="recruited"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="represented"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="representing"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="represents"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="spent"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="spotted"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="such"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="supply"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="supply"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="travelled"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="were"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="were"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="&apos;"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="&apos;s"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="&apos;s"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="African-born"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Apart"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Closer"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Closer"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Johnson"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="Republic"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="UK-born"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="additions"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="ago"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="are"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="became"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="became"/>
+        <Class IRI="ORDINAL"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="been"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="been"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="birthplace"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="born"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="born"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="born"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="came"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="came"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="chain"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="come"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="come"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="comes"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="comes"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="coming"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="crashed"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="crashed"/>
+        <Class IRI="DURATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="departed"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="dos"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="dos"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="drew"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="easily"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="farthest"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="formed"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="go"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="go"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="had"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hail"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hail"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hailed"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hails"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hails"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="MISC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="has"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="NUMBER"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="have"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="having"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="himself"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="himself"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="home"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="DURATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="is"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="joined"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="leaving"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="may"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="now"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="of"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="one"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="played"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="played"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="probably"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="recruited"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="represented"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="representing"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="represents"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="spent"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="spotted"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="such"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="supply"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="supply"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="travelled"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="DATE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="ORGANIZATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="was"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="were"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="were"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="&apos;"/>
+        <Class IRI="LOCATION"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="&apos;s"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="&apos;s"/>
+        <Class IRI="PERSON"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="DATE"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="DURATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="LOCATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="LOCATrealtedTo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="League"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="MISC"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="NUMBER"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="ORDINAL"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="ORGANIZATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="ORGANIZATION"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="PERSON"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="realtedTo"/>
+        <Class IRI="Players"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="realtedTo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0.2017-03-29T23:31:42Z) https://github.com/owlcs/owlapi/ -->
+
+
